@@ -12,8 +12,6 @@ MN=1
 
 if [[ $FU -gt $MN ]]
 then
-
-# Need to configure Mail or SMTP server
 echo "Warning: Low" | sendmail ssmtp $TO 
 else
 echo "Fine"
